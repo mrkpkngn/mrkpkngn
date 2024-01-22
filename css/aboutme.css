@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+}
+
+.about{
+    flex: 1;
+}
+
+.about p{
+    text-align: justify;
+}
+
+.about h1{
+    font-weight: 600;
+}
+
+.education__container{
+    display: flex;
+}
+
+.school__container{
+    flex: 1;
+    display: flex;
+    background-color: #FFF8F2;
+    align-content: center;
+}
+
+.school__text{
+    align-self: center;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .about{
+        flex: 1;
+        margin: 10vw;
+    }
+
+    .education{
+        flex: 1;
+        margin: 0 10vw;
+    }
+
+    .education__container{
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .school__container{
+        border-radius: 3vw;
+        gap: 5vw;
+        padding: 2vw;
+    }
+
+    .school__container img{
+        width: 15vw;
+    }
+    
+    .school__container h3{
+        font-size: 4vw;
+    }
+
+    .school__container p{
+        font-size: 3vw;
+    }
+}
