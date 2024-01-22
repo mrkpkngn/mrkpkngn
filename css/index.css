@@ -128,7 +128,7 @@ footer{
         padding-bottom: 10vw;
     }
     .buttons btn{
-        font-size: 5vw;
+        font-size: 4vw;
         padding: 3vw 7vw;
         border-radius: 3vw;
     }
@@ -257,7 +257,7 @@ footer{
         padding-left: 6rem;
     }
     .greetings{
-        margin-top: 1rem;
+        margin-top: 3rem;
         font-size: 2rem;
         padding: 0.5rem 3rem;
         border-radius: 0.5rem;
@@ -265,7 +265,7 @@ footer{
     }
     .name{
         font-size: 4.5rem;
-        flex: 1;
+        flex: 0.5;
     }
     .buttons{
         margin: 1.5rem;
@@ -273,6 +273,55 @@ footer{
     }
     .buttons btn{
         font-size: 1.75rem;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+    }
+    .footer{
+        height: 20vh;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .homepage{
+        justify-content: center;
+        padding-top: 3rem;
+    }
+    .homepage__container{
+        max-width: 1600px;
+    }
+    .photo{
+        flex: 40%;
+        padding-left: 2rem;
+    }
+    .photo__squiggly{
+        width: 100%;
+    }
+    .photo__selfie{
+        width: 100%;
+        transform: translate(1rem, 0);
+    }
+    .homepage__texts{
+        flex: 60%;
+        padding-left: 6rem;
+    }
+    .greetings{
+        margin-top: 4cqmax;
+        font-size: 3rem;
+        padding: 0.5rem 3rem;
+        border-radius: 0.5rem;
+
+    }
+    .name{
+        font-size: 6rem;
+        flex: 0.5;
+    }
+    .buttons{
+        margin: 1.5rem;
+        flex: 0.30;
+    }
+    .buttons btn{
+        font-size: 2rem;
         padding: 1rem 2rem;
         border-radius: 1rem;
     }
