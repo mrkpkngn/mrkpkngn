@@ -21,10 +21,6 @@ body{
     flex: 1;
 }
 
-.about p{
-    text-align: justify;
-}
-
 .about h1{
     font-weight: 600;
 }
