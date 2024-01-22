@@ -14,6 +14,7 @@ body{
 
 .container{
     display: flex;
+    flex-direction: column;
 }
 
 .about{
@@ -28,6 +29,10 @@ body{
     font-weight: 600;
 }
 
+.education{
+    flex: 1;
+}
+
 .education__container{
     display: flex;
 }
@@ -39,6 +44,11 @@ body{
     align-content: center;
 }
 
+.school__container h3{
+    font-family: 'Work Sans';
+    font-weight: 600;
+}
+
 .school__text{
     align-self: center;
 }
@@ -48,16 +58,13 @@ body{
     .container{
         width: 100%;
         height: 100vh;
-        flex-direction: column;
     }
 
     .about{
-        flex: 1;
         margin: 10vw;
     }
 
     .education{
-        flex: 1;
         margin: 0 10vw;
     }
 
@@ -74,6 +81,7 @@ body{
 
     .school__container img{
         width: 15vw;
+        margin-left: 5.5vw;
     }
     
     .school__container h3{
@@ -84,3 +92,56 @@ body{
         font-size: 3vw;
     }
 }
+
+@media (min-width: 769px) {
+    .container{
+        max-width: 769px;
+        align-self: center;
+    }
+    
+    .about{
+        flex: 1;
+        margin: 3rem;
+    }
+
+    .education{
+        margin: 0 3rem;
+    }
+
+    .education__container{
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .school__container{
+        border-radius: 2rem;
+        gap: 1rem;
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+
+    .school__container img{
+        width: 6rem;
+        height: 6rem;
+        align-self: center;
+    }
+
+    .school__container h3{
+        font-size: 1rem;
+        text-align: center;
+        margin: 0.2rem;
+    }
+
+    .school__container h3#acs{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .school__container p{
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+
+}
+
