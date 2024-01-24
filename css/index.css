@@ -96,10 +96,6 @@ footer{
 .buttons a{
     color: #F3F2FF;
 }
-.footer{
-    background-color: #edc048;
-    width: 100%;
-}
 
 @media (max-width: 768px) {
     .homepage{
@@ -131,9 +127,6 @@ footer{
         font-size: 4vw;
         padding: 3vw 7vw;
         border-radius: 3vw;
-    }
-    .footer{
-        height: 15vh;
     }
 }
 
@@ -178,11 +171,6 @@ footer{
         padding: 1rem 2rem;
         border-radius: 1rem;
     }
-    .footer{
-        height: 20vh;
-        width: 100%;
-    }
-}
 
 @media (min-width: 1024px) {
     .homepage{
@@ -226,10 +214,6 @@ footer{
         font-size: 1.75rem;
         padding: 1rem 2rem;
         border-radius: 1rem;
-    }
-    .footer{
-        height: 20vh;
-        width: 100%;
     }
 }
 
@@ -276,10 +260,6 @@ footer{
         padding: 1rem 2rem;
         border-radius: 1rem;
     }
-    .footer{
-        height: 20vh;
-        width: 100%;
-    }
 }
 
 @media (min-width: 1600px) {
@@ -325,10 +305,6 @@ footer{
         padding: 1rem 2rem;
         border-radius: 1rem;
     }
-    .footer{
-        height: 20vh;
-        width: 100%;
-    }
 }
 
 @media (min-width: 1920px) {
@@ -372,10 +348,6 @@ footer{
         font-size: 3rem;
         padding: 1.5rem 3rem;
         border-radius: 1rem;
-    }
-    .footer{
-        height: 20vh;
-        width: 100%;
     }
 }
 
@@ -421,10 +393,6 @@ footer{
         padding: 1.5rem 3rem;
         border-radius: 1rem;
     }
-    .footer{
-        height: 20vh;
-        width: 100%;
-    }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
@@ -457,7 +425,5 @@ footer{
         padding: 3vw 7vw;
         border-radius: 3vw;
     }
-    .footer{
-        height: 10vh;
     }
 }
