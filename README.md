@@ -1,11 +1,11 @@
 ```
-                                                                     NAME:       Mark Daniel Gantiles Pakingan   
-   __  ___         __     ___       __    _                          AGE:        20
-  /  |/  /__ _____/ /__  / _ \___ _/ /__ (_)__  ___ ____ ____        SCHOOL:     VŠB- Technical University of Ostrava
- / /|_/ / _ `/ __/  '_/ / ___/ _ `/  '_// / _ \/ _ `/ _ `/ _ \       WEBSITE:    https://markpakingan.com
-/_/  /_/\_,_/_/ /_/\_\ /_/   \_,_/_/\_\/_/_//_/\_, /\_,_/_//_/       FRAMEWORKS: HTML/CSS, ReactJS, NextJS, Git, TailwindCSS, C/C++
-                                              /___/                  OS:         Mac / Linux
-                                                                     EMAIL:      contact@markpakingan.com
+                                                                 NAME:       Mark Daniel Gantiles Pakingan   
+   __  ___         __     ___       __    _                      AGE:        20
+  /  |/  /__ _____/ /__  / _ \___ _/ /__ (_)__  ___ ____ ____    SCHOOL:     VŠB- Technical University of Ostrava
+ / /|_/ / _ `/ __/  '_/ / ___/ _ `/  '_// / _ \/ _ `/ _ `/ _ \   WEBSITE:    https://markpakingan.com
+/_/  /_/\_,_/_/ /_/\_\ /_/   \_,_/_/\_\/_/_//_/\_, /\_,_/_//_/   FRAMEWORKS: HTML/CSS, ReactJS, NextJS, Git, TailwindCSS, C/C++
+                                              /___/              OS:         Mac / Linux
+                                                                 EMAIL:      contact@markpakingan.com
                                                                      
 ```                                                                  
 
